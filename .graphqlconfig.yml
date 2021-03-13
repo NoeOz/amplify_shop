@@ -1,0 +1,13 @@
+projects:
+  amplifyshop:
+    schemaPath:
+      C:/Users/USER3/Desktop/Niku/PruebaRN/pruebaAmplify/amplify_shop/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: /graphql
